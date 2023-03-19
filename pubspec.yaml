@@ -1,0 +1,72 @@
+name: flutter_practice
+description: A new Flutter project for practice.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  get: ^4.6.5
+
+
+  # 屏幕适配
+  flutter_screenutil: ^5.6.1
+
+  fluttertoast: ^8.2.1
+
+
+  # 加密安全 SHA
+  crypto: ^3.0.2
+
+
+  # 通讯 http
+  dio: ^5.0.2
+  cookie_jar: ^3.0.1
+  dio_cookie_manager: ^2.0.0
+
+
+  # storage + cache
+  shared_preferences: ^2.0.18
+  cached_network_image: ^3.2.3
+
+
+  # 状态管理
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+
+  fonts:
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/Avenir-Book.ttf
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+    - family: Iconfont
+      fonts:
+        - asset: assets/fonts/iconfont.ttf
